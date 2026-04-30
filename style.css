@@ -1,0 +1,98 @@
+@import url('https://fonts.cdnfonts.com/css/impact'); /*fonte titulo*/
+@import url( 'https://fonts.cdnfonts.com/css/distressed-ransom-note'); /*fonte titulo alternativa*/
+@import url( 'https://fonts.cdnfonts.com/css/metropolitan'); /*Fonte do h3*/
+@import url('https://fonts.cdnfonts.com/css/kirjainkone');  /*fonte paragrafo*/                             
+
+                
+/*reset basico*/
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 5px;
+}
+
+body{ /*altera o alinhamento do texto no corpo da pagina*/
+    text-align: center;
+    background-color: black;
+}
+
+h3{
+     font-family: 'Metropolitan'
+}
+p{
+    font-family: 'Kirjainkone';
+}
+
+h2{
+    color: white;
+    font-family:'Kirjainkone';
+}
+/*cores: prin; #DC0201 E detalhes;CACAC4*/
+
+header{ /*mudando a cor do titulo do site*/
+    color: white;
+    font-family: 'Distressed Ransom Note';
+}
+
+nav a{ /*alterando a parte de links dentro da barra de navegação*/
+    text-decoration: none; /*Tag pra mudar a decoração que o texto possui, a opção 'none' anula qualquer uma*/
+    color: rgb(255, 255, 255); /*cor da fonte*/
+    display: inline-block; /*Deixa os itens lado a lado em blocos*/
+    margin: 10px; /*espaço da margem entre os links*/
+    padding: 6px 10px;
+    background-color:#DC0201; ;
+    border-radius: 2px; /*tamanho do arredondamento dos blocos*/
+    font-family: 'Kirjainkone';
+    font-size: 14px;
+}
+nav a:hover{ /*configurações que ocorreram quando o mouse fazer a açao e passar por cima dos links*/
+    background-color: #DC0201;
+    color: #460909; /*cor da fonte quando o mouse passar por cima*/
+    font-size: 17px; /*tamanho da fonte*/
+}
+
+.card{ /*article dos cards dos personagens*/
+    display: inline-block; /*um do lado do outro*/
+    width: 250px; /*tamanho do bloco*/
+    margin: 15px;
+    padding: 10px;
+    background-color: #DC0201; /*cor da caixa*/ 
+    border-radius: 2px ; /*tamanho do arredondamento dos blocos*/
+    text-align: center;
+}
+.card img{ /*alteraçoes nas imagens dentro dos cards*/
+    width: 100%; /*tamanhos delas*/
+    height: 320px; /*altura dela*/
+    border-radius: 10px; /*tamanho do arredondamento dos blocos*/
+    object-fit: cover; /*comando para quando ajustarmos o tamanho da imagem ela nao distorcer*/
+}
+
+#personagens{
+    background-image: url(./img/backgroundPRETO.jpeg);
+    background-size: contain;
+    width: 100%;
+    /*alterar o tamanho da imagem usase background-size = cover, contain. nao repetir a imagem varias vezes - backgroud-repeat
+    mudar a posicao da imagem - background-position*/
+}
+
+#view{
+    margin-top: 30px;
+    background-color: #030303;
+}
+
+.views{
+    display: inline-block;
+    width: 350px;
+    height: 540px;
+    border-radius: 3px;
+    padding-top: 20px;
+    background-color: #DC0201;
+    margin: 40px;
+    padding: 20px;
+}
+
+.views img{
+    width: 100%;
+    height: 450px;
+    border-radius: 3px;
+}
