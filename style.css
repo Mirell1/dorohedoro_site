@@ -13,7 +13,7 @@
 
 body{ /*altera o alinhamento do texto no corpo da pagina*/
     text-align: center;
-    background-color: black;
+    background-color: #030303;
 }
 
 h3{
@@ -95,4 +95,11 @@ nav a:hover{ /*configurações que ocorreram quando o mouse fazer a açao e pass
     width: 100%;
     height: 450px;
     border-radius: 3px;
+}
+
+footer{
+    background-color: #030303;
+    color: white;
+    height: 100px;
+    text-align: center;
 }

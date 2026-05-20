@@ -1,0 +1,18 @@
+@import url('https://fonts.cdnfonts.com/css/impact'); /*fonte titulo*/
+@import url( 'https://fonts.cdnfonts.com/css/distressed-ransom-note'); /*fonte titulo alternativa*/
+@import url( 'https://fonts.cdnfonts.com/css/metropolitan'); /*Fonte do h3*/
+@import url('https://fonts.cdnfonts.com/css/kirjainkone');  /*fonte paragrafo*/                             
+
+                
+/*reset basico*/
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 5px;
+}
+
+body{ /*altera o alinhamento do texto no corpo da pagina*/
+    text-align: center;
+    background-color: #030303;
+}
+ 
